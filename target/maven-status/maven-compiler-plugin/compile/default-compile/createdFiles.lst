@@ -1,9 +1,0 @@
-com/test/serverless/photo/service/model/GatewayResponse$1.class
-com/test/serverless/photo/service/handler/ImageCreatedHandler.class
-com/test/serverless/photo/service/model/GatewayResponse.class
-com/test/serverless/photo/service/handler/GetPhotoHandler.class
-com/test/serverless/photo/service/model/GatewayResponse$GatewayResponseBuilder.class
-com/test/serverless/photo/service/model/GatewayRequest.class
-com/test/serverless/photo/service/handler/PostPhotoHandler.class
-com/test/serverless/photo/service/model/Image$ImageBuilder.class
-com/test/serverless/photo/service/model/Image.class
