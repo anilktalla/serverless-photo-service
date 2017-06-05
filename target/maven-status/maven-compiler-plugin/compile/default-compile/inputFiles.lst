@@ -1,0 +1,6 @@
+/Users/anilkumartalla/Documents/applications/customerserverlessws/serverless-photo-service/src/main/java/com/test/serverless/photo/service/handler/PostPhotoHandler.java
+/Users/anilkumartalla/Documents/applications/customerserverlessws/serverless-photo-service/src/main/java/com/test/serverless/photo/service/handler/GetPhotoHandler.java
+/Users/anilkumartalla/Documents/applications/customerserverlessws/serverless-photo-service/src/main/java/com/test/serverless/photo/service/handler/ImageCreatedHandler.java
+/Users/anilkumartalla/Documents/applications/customerserverlessws/serverless-photo-service/src/main/java/com/test/serverless/photo/service/model/Image.java
+/Users/anilkumartalla/Documents/applications/customerserverlessws/serverless-photo-service/src/main/java/com/test/serverless/photo/service/model/GatewayResponse.java
+/Users/anilkumartalla/Documents/applications/customerserverlessws/serverless-photo-service/src/main/java/com/test/serverless/photo/service/model/GatewayRequest.java
