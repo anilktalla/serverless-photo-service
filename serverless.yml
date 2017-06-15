@@ -1,4 +1,4 @@
-service: serverless-photo-service
+service: serverless-authorizer
 
 frameworkVersion: ">=1.9.0 <2.0.0"
 
@@ -20,34 +20,10 @@ provider:
       Resource: "*"
 
 package:
-  artifact: target/serverless-photo-service.jar
+  artifact: target/serverless-authorizer.jar
 
 functions:
-  getPhoto:
-    handler: com.test.serverless.photo.service.handler.GetPhotoHandler
-    events:
-      - http:
-          path: /api/v1/user/{userName}/photo
-          method: get
-          cors: true
-  postPhoto:
-    handler: com.test.serverless.photo.service.handler.PostPhotoHandler
-    events:
-      - http:
-          path: /api/v1/user/{userName}/photo
-          method: post
-          cors: true
-  imageCreated:
-    handler: com.test.serverless.photo.service.handler.ImageCreatedHandler
-    events:
-      - s3:
-          bucket: anilktalla-serverless-photo-service
-          event: s3:ObjectCreated:*
-
-resources:
-  Resources:
-    S3Bucket:
-      Type: AWS::S3::Bucket
-      Properties:
-        BucketName: anilktalla-serverless-photo-service-resized
+  authorizer:
+    handler: com.test.serverless.authorizer.handler.AuthorizerHandler
+    
 
